@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>主页</title>
     <base target="_blank">
-    
+    <style type="text/css">
+        body {
+            background-image: url(./p1.jpg);
+            background-size: 100% 100%;
+            height:100%;
+        }
+        html{
+            height: 100%;
+        }
+        @keyframes pkq {
+            from{background: red}
+            to{background: blue}
+        }
+        p{
+            animation: pkq 1s infinite;
+            size: 20px;
+        }
+    </style>
 </head>
-<body>
 
-<style>
-    div {
-        background-image: url(./images/p1.jpg);
-       background-size: 100% 100%;
-       height: 100%;
-        background-attachment: fixed;
-    }
-</style>
-    
-</body>
 <script>
     /* 主页script */
 
